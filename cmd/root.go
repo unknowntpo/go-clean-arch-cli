@@ -8,10 +8,10 @@ import (
 )
 
 var rootCmd = &cobra.Command{
-	Use:   "gcac",
-	Short: "go-clean-arch-cli is a cli tool for go-clean-arch",
+	Use:   "task",
+	Short: "task is a cli task manager.",
 	Run: func(cmd *cobra.Command, args []string) {
-		fmt.Println("gcac is called")
+		fmt.Println("task is called")
 	},
 }
 

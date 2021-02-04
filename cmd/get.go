@@ -8,7 +8,7 @@ import (
 
 var getCmd = &cobra.Command{
 	Use:   "get",
-	Short: "get the article with id or name specified",
+	Short: "get the task with id or name specified",
 	Run: func(cmd *cobra.Command, args []string) {
 		fmt.Println("get called")
 	},

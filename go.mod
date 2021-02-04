@@ -1,4 +1,4 @@
-module unknowntpo/go-clean-arch-cli
+module unknowntpo/gophercises-task
 
 go 1.15
 

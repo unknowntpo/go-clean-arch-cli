@@ -1,4 +1,4 @@
-BIN=gcac
+BIN=task
 
 build:
 	go build -o $(BIN)

@@ -1,6 +1,6 @@
 package main
 
-import "unknowntpo/go-clean-arch-cli/cmd"
+import "unknowntpo/gophercises-task/cmd"
 
 func main() {
 	cmd.Execute()

@@ -8,7 +8,7 @@ import (
 
 var deleteCmd = &cobra.Command{
 	Use:   "delete",
-	Short: "delete the article with id or name specified",
+	Short: "delete the task with id or name specified",
 	Run: func(cmd *cobra.Command, args []string) {
 		fmt.Println("delete called")
 	},
