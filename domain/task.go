@@ -1,7 +1,13 @@
 package main
 
-import "fmt"
+import (
+	"time"
+)
 
-func main() {
-	fmt.Println("vim-go")
+type Task struct {
+	Id       int       // task id
+	Desc     string    // task description
+	CreateTS time.Time // when the task was created
+	DoneTS   time.Time // when the task was done
+	IsDone   bool      // task is done or not
 }
