@@ -8,10 +8,10 @@ import (
 )
 
 var rootCmd = &cobra.Command{
-	Use:   "task",
-	Short: "task is a cli task manager.",
+	Use:   "tm",
+	Short: "tm is a cli task manager.",
 	Run: func(cmd *cobra.Command, args []string) {
-		fmt.Println("task is called")
+		fmt.Println("tm is called")
 	},
 }
 

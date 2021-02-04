@@ -1,4 +1,4 @@
-BIN=task
+BIN=tm
 
 build:
 	go build -o $(BIN)
